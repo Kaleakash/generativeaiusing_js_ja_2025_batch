@@ -8,6 +8,9 @@ function loadData() {
     // then(response=>response.json()).then(result=>console.log(result)).catch(error=>console.log(error));
     // console.log("Data is loading");
 
+// let response = fetch("https://jsonplaceholder.typicode.com/todos");
+// let result = response.json();
+// await and async is used to wait for the response
 
     fetch("https://jsonplaceholder.typicode.com/todos").
     then(response=>response.json()).
