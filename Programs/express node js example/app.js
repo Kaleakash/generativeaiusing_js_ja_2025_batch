@@ -8,7 +8,7 @@ app.get('/', function(req, res) {    // define a route handler for the default h
 // http://localhost:3000/about_us
 app.get('/about_us', function(req, res) {    // define a route handler for the default home page
     res.send('Welcome to Express js Application with aboutus');            // send the response
-  });
+});
 
 // http://localhost:3000/msg?fname=John
 app.get("/msg", function(req, res){
